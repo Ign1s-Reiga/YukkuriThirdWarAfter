@@ -1,0 +1,99 @@
+focus_tree = {
+	id = turkish_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	initial_show_position = { focus = TUR_change_expansion_route }
+
+	focus = {
+		id = TUR_change_expansion_route
+		icon = GFX_focus_generic_strike_at_democracy1
+		mutually_exclusive = { focus = TUR_international_cooperation }
+		x = 2
+		y = 0
+		cost = 10
+		ai_will_do = {
+			base = 10
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = TUR_road_restoration_islamic_dynasties
+		icon = GFX_goal_islamic_government
+		prerequisite = { focus = TUR_change_expansion_route }
+		mutually_exclusive = { focus = TUR_rising_communist_sentiment }
+		x = 1
+		y = 1
+		relative_position_id = TUR_change_expansion_route
+		cost = 10
+		ai_will_do = {
+			base = 18
+		}
+
+		completion_reward = {
+			add_ideas = { TUR_resurgence_islamic_imperialism }
+		}
+	}
+
+	focus = {
+		id = TUR_revive_ottoman_turkey
+		icon = GFX_goal_ottoman
+		prerequisite = { focus = TUR_change_expansion_route }
+		x = 0
+		y = 2
+		relative_position_id = TUR_change_expansion_route
+		cost = 10
+		ai_will_do = {
+			base = 10
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = TUR_international_cooperation
+		icon = GFX_goal_generic_major_alliance
+		mutually_exclusive = { focus = TUR_change_expansion_route }
+		x = -2
+		y = 0
+		cost = 10
+		ai_will_do = {
+			base = 10
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = TUR_transition_parliamentary_politics
+		icon = GFX_goal_democracy_politics
+		prerequisite = { focus = TUR_international_cooperation }
+		x = -1
+		y = 1
+		relative_position_id = TUR_international_cooperation
+		cost = 10
+
+		completion_reward = {
+			add_ideas = { democratic_influence }
+		}
+	}
+}

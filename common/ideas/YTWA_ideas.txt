@@ -1,0 +1,13 @@
+ideas = {
+    country = {
+        divided_germany = {
+            removal_cost = -1
+            allowed = { always = yes }
+            picture = great_depression
+    
+            modifier = {
+                stability_factor = -0.5
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_military_rebellion"
+        texturefile = "gfx/interface/ideas/idea_military_rebellion.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_TUR_resurgence_islamic_imperialism"
+        texturefile = "gfx/interface/ideas/idea_TUR_resurgence_islamic_imperialism.dds"
+    }
+}

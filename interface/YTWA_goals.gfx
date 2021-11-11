@@ -1,0 +1,22 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_goal_liberty"
+        texturefile = "gfx/interface/goals/goal_liberty.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_ottoman"
+        texturefile = "gfx/interface/goals/goal_flag_ottoman.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_islamic_government"
+        texturefile = "gfx/interface/goals/goal_islamic_government.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_revolution_tools"
+        texturefile = "gfx/interface/goals/goal_revolution_tools.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_democracy_politics"
+        texturefile = "gfx/interface/goals/goal_democracy_politics.dds"
+    }
+}

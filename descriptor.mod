@@ -1,0 +1,16 @@
+version="1.0"
+name="Yukkuri Third War After"
+tags={
+	"Alternative History"
+	"Events"
+	"National Focuses"
+}
+supported_version="1.10.*"
+path="mod/YukkuriThirdWarAfter"
+replace_path="common/defines"
+replace_path="common/bookmarks"
+replace_path="common/national_focus"
+replace_path="events"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"

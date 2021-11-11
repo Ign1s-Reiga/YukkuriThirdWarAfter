@@ -1,0 +1,72 @@
+add_namespace = YTWA_general
+
+country_event = {
+    id = YTWA_general.1
+    title = YTWA_general.1.t
+    desc = YTWA_general.1.d
+
+    trigger = {
+        date > 1952.3.1
+    }
+
+    mean_time_to_happen = {
+        days = 2
+    }
+
+    immediate = {
+        hidden_effect = {
+            ENG = {
+                dismantle_faction = yes
+            }
+        }
+    }
+
+    option = {
+        trigger = {
+            all_country = {
+                is_in_faction_with = ENG
+                NOT = {
+                    AND = {
+                        tag = BAY
+                        tag = PRE
+                    }
+                }
+            }
+        }
+        name = YTWA_general.1.a
+    }
+    option = {
+        trigger = {
+            all_country = {
+                is_in_faction_with = ENG
+                AND = {
+                    tag = BAY
+                    tag = PRE
+                }
+            }
+        }
+        name = YTWA_general.1.b
+    }
+    option = {
+        trigger = {
+            all_country = {
+                NOT = {
+                    AND = {
+                        is_in_faction_with = ENG
+                        is_in_faction_with = SOV
+                    }
+                }
+            }
+        }
+        name = YTWA_general.1.c
+    }
+    option = {
+        trigger = {
+            all_country = {
+                NOT = { is_in_faction_with = ENG }
+                is_in_faction_with = SOV
+            }
+        }
+        name = YTWA_general.1.e
+    }
+}
