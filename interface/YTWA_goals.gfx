@@ -19,4 +19,8 @@ spriteTypes = {
         name = "GFX_goal_democracy_politics"
         texturefile = "gfx/interface/goals/goal_democracy_politics.dds"
     }
+    SpriteType = {
+        name = "GFX_USA_nuke_nation"
+        texturefile = "gfx/interface/goals/goal_USA_nuke_nation.dds"
+    }
 }

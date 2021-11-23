@@ -11,6 +11,8 @@ state = {
 			arms_factory = 2
 			dockyard = 3
 		}
+
+		add_claim_by = GER
 	}
 
 	provinces = {
