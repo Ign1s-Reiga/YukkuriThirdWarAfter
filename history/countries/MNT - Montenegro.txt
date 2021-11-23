@@ -4,8 +4,6 @@ oob = "MON_1936"
 
 set_research_slots = 3
 
-# Starting tech
-# clone of Yugoslavia
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
@@ -49,7 +47,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_popularities = {	democratic = 33	neutrality = 33	communism = 34
+set_popularities = {
+	democratic = 33
+	neutrality = 33
+	communism = 34
 }
 
 create_country_leader = {
