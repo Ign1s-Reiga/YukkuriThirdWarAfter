@@ -25,41 +25,6 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 50 y = 1600 }
 	default = no
-#	focus = {
-#		id = USA_
-#		#icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id = 
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
 
 	focus = {
 		id = USA_nuclear_nation
@@ -77,8 +42,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		complete_tooplip = {
+		}
+
 		completion_reward = {
-			
+			USA_add_damaged_nuclear_reactor = yes
 		}
 	}
 }
