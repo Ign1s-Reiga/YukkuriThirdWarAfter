@@ -1,5 +1,5 @@
 ﻿l_english:
   FRA_self_proclaimed_vict_country:0 "自称戦勝国"
   FRA_self_proclaimed_vict_country_desc:0 "自称戦勝国の説明"
-  USA_nuclear_nations:0 "カクヘイキの国"
-  USA_nuclear_nations_desc:0 "核兵器と言ったらこの国、核兵器と言ったらスイジョウキ"
+  USA_nuclear_nation:0 "カクヘイキの国"
+  USA_nuclear_nation_desc:0 "核兵器と言ったらこの国、核兵器と言ったらスイジョウキ"

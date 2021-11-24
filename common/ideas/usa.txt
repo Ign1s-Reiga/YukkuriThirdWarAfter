@@ -1,5 +1,4 @@
 ideas = {
-
 	country = {
 		great_depression = {
 			picture = usa_great_depression_3
