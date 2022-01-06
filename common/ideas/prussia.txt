@@ -1,4 +1,15 @@
 ideas = {
+	country = {
+		PRE_rising_of_fascist = {
+			removal_cost = -1
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			picture = GFX_idea_generic_fascism_drift_bonus
+			modifier = {
+				fascism_drift = 0.15
+			}
+		}
+	}
 
 	political_advisor = {
 	

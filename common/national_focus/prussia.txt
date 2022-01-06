@@ -1,0 +1,79 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+    id = prussia_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = PRE
+        }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 10 y = 1600 }
+
+    focus = {
+        id = PRE_election_1952
+        icon = GFX_focus_hol_the_foundations_of_defense
+        x = 18
+        y = 0
+        cost = 10
+        available = {
+            date > 1952.4.13
+        }
+        bypass = {
+            date > 1952.4.13
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = yes
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+    }
+    focus = {
+        id = PRE_applicant_emile
+        x = 9
+        y = 2
+        prerequisite = { focus = PRE_election_1952 }
+        mutually_exclusive = { focus = PRE_applicant_gruppen focus = PRE_applicant_tonton }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    focus = {
+        id = PRE_applicant_gruppen
+        x = 18
+        y = 2
+        prerequisite = { focus = PRE_election_1952 }
+        mutually_exclusive = { focus = PRE_applicant_emile focus = PRE_applicant_tonton }
+        ai_will_do = {
+            factor = 4
+        }
+        completion_reward = {
+            add_ideas = {
+                PRE_rising_of_fascist
+            }
+        }
+    }
+    focus = {
+        id = PRE_applicant_tonton
+        x = 27
+        y = 2
+        prerequisite = { focus = PRE_election_1952 }
+        mutually_exclusive = { focus = PRE_applicant_gruppen focus = PRE_applicant_emile }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

@@ -5,11 +5,12 @@ tags={
 	"Events"
 	"National Focuses"
 }
-supported_version="1.10.*"
+supported_version="1.11.*"
 path="mod/YukkuriThirdWarAfter"
 replace_path="common/defines"
 replace_path="common/bookmarks"
 replace_path="common/national_focus"
+replace_path="common/opinion_modifiers"
 replace_path="common/scripted_effects"
 replace_path="events"
 replace_path="history/countries"

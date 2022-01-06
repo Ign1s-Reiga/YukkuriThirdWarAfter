@@ -1,0 +1,19 @@
+state = {
+	id = 835
+	name = "STATE_835"
+	manpower = 408150 
+	state_category = town
+	
+	history = {
+		owner = DEN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		11366 11251 332
+ 	}
+
+	local_supplies = 0.0
+}

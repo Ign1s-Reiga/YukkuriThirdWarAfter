@@ -1,5 +1,16 @@
 ideas = {
 	country = {
+		TUR_support_development_nukes = {
+			removal_cost = -1
+			picture = GFX_idea_TUR_support_development_nukes
+			allowed = { original_tag = TUR }
+			allowed_civil_war = { always = yes }
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.05
+			}
+		}
+
 		TUR_resurgence_islamic_imperialism = {
             removal_cost = -1
             picture = GFX_idea_TUR_resurgence_islamic_imperialism

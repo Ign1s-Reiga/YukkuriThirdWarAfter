@@ -23,4 +23,8 @@ spriteTypes = {
         name = "GFX_USA_nuke_nation"
         texturefile = "gfx/interface/goals/goal_USA_nuke_nation.dds"
     }
+    SpriteType = {
+        name = "GFX_goal_nuclear"
+        texturefile = "gfx/interface/goals/goal_nuclear.dds"
+    }
 }

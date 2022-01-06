@@ -1,5 +1,4 @@
-state=
-{
+state={
 	id=8
 	name="STATE_8"
 	
@@ -10,11 +9,10 @@ state=
 		steel=5 # was: 8
 	}
 
-	history=
-	{
+	history={
 		owner = LUX
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 		}
@@ -22,7 +20,8 @@ state=
 		add_core_of = LUX
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces={
+		6583
+	}
+	local_supplies=0.0
 }
