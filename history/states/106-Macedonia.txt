@@ -2,14 +2,14 @@ state={
 	id=106
 	name="STATE_106"
 	resources={
-		chromium=70.000
-		aluminium=16.000
+		chromium=70
+		aluminium=16
 	}
 
 	history={
 		owner = YUG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 2
 
@@ -18,7 +18,6 @@ state={
 			3882 5
 		}
 		add_core_of = YUG
-		add_core_of = MAC
 		add_claim_by = BUL
 	}
 
@@ -28,4 +27,5 @@ state={
 	manpower=1374200
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies = 0.0
 }

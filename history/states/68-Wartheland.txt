@@ -15,7 +15,7 @@ state = {
 		}
 		owner = PRE
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = PRE
@@ -24,4 +24,5 @@ state = {
 	provinces = {
 		444 537 3473 3572 6236 9387 11478 
 	}
+	local_supplies = 0.0
 }

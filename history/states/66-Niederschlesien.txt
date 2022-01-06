@@ -15,14 +15,14 @@ state = {
 			9570 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = GER
 	}
 
 	provinces = {
 		552 3283 3438 3485 3510 3545 6462 6534 6595 9470 9570 11517 
 	}
+	local_supplies = 10.0
 }

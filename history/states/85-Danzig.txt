@@ -2,7 +2,6 @@ state={
 	id=85
 	name="STATE_85"
 	manpower = 366730
-	set_demilitarized_zone = yes
 	
 	state_category = city
 	history={
@@ -11,7 +10,7 @@ state={
 			362 10
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 3

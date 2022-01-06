@@ -1,6 +1,10 @@
 state={
 	id=112
 	name="STATE_112"
+	manpower=1995800
+	buildings_max_level_factor=1.000
+	state_category=city
+
 	resources={
 		tungsten=50.000
 	}
@@ -14,7 +18,7 @@ state={
 			3798 1 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 			air_base = 5
@@ -24,13 +28,11 @@ state={
 			}
 		}
 		add_core_of = POR
-
 	}
 
 	provinces={
 		799 3798 3861 6924 11805 
 	}
-	manpower=1995800
-	buildings_max_level_factor=1.000
-	state_category=city
+
+	local_supplies = 12.0
 }

@@ -13,10 +13,16 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
+			11332 1 #Cockermouth
+		}
+		victory_points = {
+			3311 1 #Douglas
+		}
+		victory_points = {
 			351 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 4
 			air_base = 6
@@ -28,15 +34,10 @@ state={
 			}
 		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces={
 		219 351 3311 6399 9285 11270 11299 11332 
 	}
+	local_supplies = 14.0
 }

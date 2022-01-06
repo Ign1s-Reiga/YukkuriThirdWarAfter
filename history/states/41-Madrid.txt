@@ -14,13 +14,12 @@ state = {
 			858 1
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 			air_base = 6
 
 		}
-		add_core_of = SPR
 		add_core_of = POR
 	}
 
@@ -30,4 +29,5 @@ state = {
 	manpower=2064659
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.0
 }

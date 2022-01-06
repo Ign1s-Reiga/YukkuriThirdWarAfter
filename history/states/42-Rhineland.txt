@@ -18,7 +18,7 @@ state = {
 			11531 5
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 3
 		}
 		add_core_of = PRE
@@ -27,6 +27,6 @@ state = {
 	provinces = {
 		563 3423 3558 9575 11435 11470 11494 11531 11547 
 	}
-	
+	local_supplies = 0.0
 	
 }

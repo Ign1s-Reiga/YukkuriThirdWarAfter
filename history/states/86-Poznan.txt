@@ -3,7 +3,6 @@ state={
 	name="STATE_86"
 	manpower = 2106500
 	
-	
 	state_category = city
 	history={
 		owner = POL
@@ -11,7 +10,7 @@ state={
 			6558 10
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 			11232 = {
 				bunker = 1
@@ -28,12 +27,10 @@ state={
 			air_base = 3
 		}
 		add_core_of = POL
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces={
 		17 388 3381 3460 3532 6558 9532 11232 11558
 	}
+	local_supplies = 0.0
 }
