@@ -18,6 +18,8 @@ ideas = {
 				fascism_drift = 0.15
 			}
 		}
+
+		PRE_
 	}
 
 	political_advisor = {
