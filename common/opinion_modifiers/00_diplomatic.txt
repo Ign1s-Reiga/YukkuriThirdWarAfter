@@ -1,5 +1,4 @@
 opinion_modifiers = {
-	
 	faction_traitor = {
 		value = -75
 	}

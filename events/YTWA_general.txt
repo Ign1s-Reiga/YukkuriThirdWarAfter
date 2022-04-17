@@ -1,6 +1,6 @@
 add_namespace = YTWA_general
 
-country_event = {
+news_event = {
     id = YTWA_general.1
     title = YTWA_general.1.t
     desc = YTWA_general.1.d
@@ -26,10 +26,8 @@ country_event = {
             all_country = {
                 is_in_faction_with = ENG
                 NOT = {
-                    AND = {
-                        tag = BAY
-                        tag = PRE
-                    }
+                    tag = BAY
+                    tag = PRE
                 }
             }
         }
@@ -38,8 +36,8 @@ country_event = {
     option = {
         trigger = {
             all_country = {
-                is_in_faction_with = ENG
                 AND = {
+                    is_in_faction_with = ENG
                     tag = BAY
                     tag = PRE
                 }
@@ -51,10 +49,8 @@ country_event = {
         trigger = {
             all_country = {
                 NOT = {
-                    AND = {
-                        is_in_faction_with = ENG
-                        is_in_faction_with = SOV
-                    }
+                    is_in_faction_with = ENG
+                    is_in_faction_with = SOV
                 }
             }
         }
@@ -63,7 +59,6 @@ country_event = {
     option = {
         trigger = {
             all_country = {
-                NOT = { is_in_faction_with = ENG }
                 is_in_faction_with = SOV
             }
         }

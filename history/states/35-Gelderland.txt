@@ -1,15 +1,12 @@
-state={
-	id=35
-	name="STATE_35"
+state ={
+	id = 35
+	name = "STATE_35"
+	manpower = 1449000
+	buildings_max_level_factor = 1.000
+	state_category = city
 
-	history={
+	history = {
 		owner = HOL
-		add_core_of = HOL
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-
-		}
 		victory_points = {
 			3262 5 
 		}
@@ -19,14 +16,15 @@ state={
 		victory_points = {
 			11562 1 
 		}
-
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		add_core_of = HOL
 	}
 
-	provinces={
+	provinces = {
 		480 3262 6496 6500 9431 11456 11562 
 	}
-	manpower=1449000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.0
+	local_supplies = 0.0
 }

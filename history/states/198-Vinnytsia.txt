@@ -2,14 +2,13 @@ state = {
 	id = 198
 	name = "STATE_198"
 	manpower = 1893391
-
 	state_category = large_town
 
 	history = {
+		owner = UKR
 		victory_points = {
 			476 3
 		}
-		owner = UKR
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -21,6 +20,5 @@ state = {
 	provinces = {
 		476 6455 6480 9423 9435 9481
 	}
-
 	local_supplies = 0.0
 }

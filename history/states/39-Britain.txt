@@ -2,7 +2,6 @@ state = {
 	id = 39
 	name = "STATE_39" # South Tyrol
 	manpower = 641650
-	
 	state_category = town
 	
 	resources = {
@@ -10,10 +9,10 @@ state = {
 	}
 
 	history = {
+		owner = HUN
 		victory_points = {
 			11598 1
 		}
-		owner = HUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -1,16 +1,18 @@
-
-state={
-	id=190
-	name="STATE_190"
+state = {
+	id = 190
+	name = "STATE_190"
 	manpower = 315500
-	
+	buildings_max_level_factor = 1.000
 	state_category = rural
 	
-	history={
+	history = {
+		owner = LAT
 		victory_points = {
 			9262 3
 		}
-		owner = LAT
+		victory_points = {
+			3296 1 #Ventspils
+		}
 		buildings = {
 			infrastructure = 3
 			9262 = {
@@ -21,10 +23,8 @@ state={
 		add_core_of = LAT
 	}
 
-	provinces={
+	provinces = {
 		3194 3296 3319 6322 9262 11246
 	}
-
-	local_supplies = 5.0 
-	buildings_max_level_factor = 1.000
+	local_supplies = 5.0
 }

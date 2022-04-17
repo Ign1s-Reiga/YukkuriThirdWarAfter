@@ -1,0 +1,355 @@
+﻿division_template = {
+	name = "Infanterie-Brigade"
+
+	division_names_group = PRE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infanterie-Division"
+
+	division_names_group = PRE_Inf_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+units = {
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6334
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 537
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 478
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 478
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 538
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 11468
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 9264
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 9347
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 9347
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 495
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 6488
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 6513
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 11388
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 6549
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+		}
+		location = 11547
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	# Panzertruppenkommando
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6521
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "GER" version_name = "Panzer I Ausf. A" } }
+	}
+}
+
+### Air oob
+air_wings = {
+	### II. Luftkreiskommando -- Berlin ###
+	64 = { 
+		# Jagdgeschwader 132 'Richtofen'		
+		fighter_equipment_0 =  {		# Ar 68
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 132"
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Erich"
+			surname="Hartmann"
+			callsign="Bubi"
+			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+		}
+		# Kampfgeschwader 153		
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 153"
+	}
+	### IV. Luftkreiskommando -- Kassel ###
+	57 = { 
+		# Jagdgeschwader 134 'Horst Wessel'		
+		fighter_equipment_0 =  {		# He 51 # Ar 68
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 134"
+		# Kampfgeschwader 152 'Hindenburg'	
+		tac_bomber_equipment_1 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 152"
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_2
+			creator = "GER" 
+			version_name = "Panzer II Ausf. a"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}
+
+#####################

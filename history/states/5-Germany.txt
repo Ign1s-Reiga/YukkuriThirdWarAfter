@@ -5,19 +5,17 @@ state = {
 	state_category = town
 
 	history = {
+		owner = POL
 		victory_points = {
 			6375 3
 		}
-		owner = POL
-		
 		buildings = {
 			infrastructure = 3
 		}
 	}
 
-	provinces={
+	provinces = {
 		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
-
-	local_supplies=12.0
+	local_supplies = 12.0
 }

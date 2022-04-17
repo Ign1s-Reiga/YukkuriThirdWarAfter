@@ -26,12 +26,8 @@ focus_tree = {
         icon = GFX_focus_hol_the_foundations_of_defense
         x = 18
         y = 0
-        cost = 10
         available = {
-            date > 1952.4.13
-        }
-        bypass = {
-            date > 1952.4.13
+            always = no # Event
         }
         ai_will_do = {
             factor = 1
@@ -45,6 +41,7 @@ focus_tree = {
         id = PRE_applicant_emile
         x = 9
         y = 2
+        cost = 10
         prerequisite = { focus = PRE_election_1952 }
         mutually_exclusive = { focus = PRE_applicant_gruppen focus = PRE_applicant_tonton }
         ai_will_do = {
@@ -55,6 +52,7 @@ focus_tree = {
         id = PRE_applicant_gruppen
         x = 18
         y = 2
+        cost = 10
         prerequisite = { focus = PRE_election_1952 }
         mutually_exclusive = { focus = PRE_applicant_emile focus = PRE_applicant_tonton }
         ai_will_do = {
@@ -70,6 +68,7 @@ focus_tree = {
         id = PRE_applicant_tonton
         x = 27
         y = 2
+        cost = 10
         prerequisite = { focus = PRE_election_1952 }
         mutually_exclusive = { focus = PRE_applicant_gruppen focus = PRE_applicant_emile }
         ai_will_do = {

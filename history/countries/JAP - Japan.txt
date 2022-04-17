@@ -59,7 +59,7 @@ set_technology = {
 	tech_recon = 1
 	tech_engineers = 1
 	motorised_infantry = 1
-	marines  = 1
+	marines = 1
 	gw_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
@@ -70,7 +70,6 @@ set_technology = {
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-	
 	trench_warfare = 1
 	base_strike = 1
 	fuel_silos = 1

@@ -18,7 +18,7 @@ state = {
 			3150 1 #Dundee
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			dockyard = 2
 		}
 		add_core_of = ENG

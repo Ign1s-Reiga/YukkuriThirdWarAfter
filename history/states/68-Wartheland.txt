@@ -1,19 +1,18 @@
-
 state = {
 	id = 68
 	name = "STATE_68"
 	manpower = 1250840
+	state_category = city
+
 	resources = {
 		aluminium = 15 # was: 24
 	}
 
-	state_category = city
-
 	history = {
+		owner = PRE
 		victory_points = {
 			3473 1
 		}
-		owner = PRE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

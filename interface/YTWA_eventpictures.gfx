@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_news_event_PRE_1952_election"
+        texturefile = "gfx/event_pictures/news_event_PRE_1952_election.dds"
+    }
+    SpriteType = {
+        name = "GFX_report_event_PRE_1952_election"
+        texturefile = "gfx/event_pictures/report_event_PRE_1952_election.dds"
+    }
+}

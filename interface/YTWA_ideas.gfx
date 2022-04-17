@@ -4,6 +4,10 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/idea_military_rebellion.dds"
     }
     SpriteType = {
+        name = "GFX_idea_repression_nazi"
+        texturefile = "gfx/interface/ideas/idea_repression_nazi.dds"
+    }
+    SpriteType = {
         name = "GFX_idea_TUR_resurgence_islamic_imperialism"
         texturefile = "gfx/interface/ideas/idea_TUR_resurgence_islamic_imperialism.dds"
     }
