@@ -60,8 +60,8 @@ if = {
 
 set_research_slots = 4
 set_convoys = 134
-set_stability = 0.4
-set_war_support = 0.3
+set_stability = 0.53
+set_war_support = 0.29
 
 set_politics = {
 	ruling_party = democratic
@@ -69,9 +69,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
-	fascism = 40
-	communism = 30
+	democratic = 42
+	fascism = 12
+	communism = 37
+	neutrality = 9
 }
 
 add_ideas = {

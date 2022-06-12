@@ -1,5 +1,21 @@
 ideas = {
 	country = {
+		PRE_political_confuse = {
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.1
+				economy_cost_factor = 0.1
+				trade_laws_cost_factor = 0.1
+			}
+		}
+		PRE_two_defeats = {
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			picture
+		}
 		PRE_repression_nazism = {
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
@@ -18,8 +34,6 @@ ideas = {
 				fascism_drift = 0.15
 			}
 		}
-
-		PRE_
 	}
 
 	political_advisor = {

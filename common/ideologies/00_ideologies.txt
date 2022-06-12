@@ -1,28 +1,15 @@
 ideologies = {
+	# Democratic
 	democratic = {
 		types = {
-			
 			conservatism = {
 			}
-		
 			liberalism = {
 			}
-		
 			socialism = {
 			}
 		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		
 		color = { 0 0 255 }
-		
 		rules = {
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
@@ -33,12 +20,9 @@ ideologies = {
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
-		
 		can_host_government_in_exile = yes
-		
 		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
 		faction_impact_on_world_tension = 0.1
-		
 		modifiers = {
 			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
@@ -51,24 +35,50 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-
-
+	social_democratic = {
+		types = {
+			social_democratic_spd_subtype = {}
+		}
+		color = { 235 237 113 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_join_factions = no
+			can_puppet = no
+		}
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+	# Communism
 	communism = {
 		
 		types = {
 		
 			marxism = {
-			}
-			
-			leninism = {
-			}
-			
+			}	
 			stalinism = {
 			}
 			
@@ -78,34 +88,30 @@ ideologies = {
 			anarchist_communism = {
 			}
 		}
-		
 		color = { 255 0 0 }
-		
 		war_impact_on_world_tension = 0.25
-		ai_communist = yes # uses the commie AI behaviour
 		rules = {
+			can_create_collaboration_government = no
 			can_force_government = no
 			can_send_volunteers = yes
-			can_puppet = yes
+			can_join_factions = no
+			can_puppet = no
 		}
-		
-		can_collaborate = yes
-		
 		modifiers = {
-			puppet_cost_factor = -0.3
 			civilian_intel_to_others = 10.0
 			army_intel_to_others = 7.5
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
 		}
-		
-		faction_modifiers = {
-			
-		}
-
+		ai_communist = yes
 	}
-
+	marxism_leninism = {
+		color = { 249 0 0 }
+	}
+	stalinism = {
+		color = { 234 0 0 }
+	}
+	# Fascism
 	fascism = {
 		types = {
 			gen_nazism = {
@@ -140,7 +146,7 @@ ideologies = {
 
     national_socialism = {
         types = {
-
+			national_socialism_subtype = {}
         }
 		color = { 80 50 0 }
 		war_impact_on_world_tension = 0.3
@@ -159,13 +165,12 @@ ideologies = {
 			airforce_intel_to_others = 10.0
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
-
 		ai_neutral = yes
     }
 
-    national_socialism = {
+    estonic_nazism = {
         types = {
-
+			estonic_nazism_subtype = {}
         }
 		color = { 80 50 0 }
 		war_impact_on_world_tension = 0.3
@@ -174,9 +179,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
-		
 		can_collaborate = yes
-		
 		modifiers = {
 			civilian_intel_to_others = 15.0
 			army_intel_to_others = 10.0
@@ -184,10 +187,9 @@ ideologies = {
 			airforce_intel_to_others = 10.0
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
-
 		ai_neutral = yes
     }
-	
+	# Neutrality
 	neutrality = {
 	
 		types = {

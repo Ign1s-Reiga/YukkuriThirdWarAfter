@@ -26,19 +26,13 @@ country_event = {
         name = YTWA_prussia.1.a
     }
 }
-
-country_event = { #グルッペンの国葬をするかどうか
+country_event = {
     id = YTWA_prussia.2
     title = YTWA_prussia.2.t
     desc = YTWA_prussia.2.d
     picture = GFX_report_event_PRE_1952_election
 
     fire_only_once = yes
-
-    trigger = {
-        tag = PRE
-        date > 1952.3.1
-    }
     immediate = {
         hidden_effect = {
             PRE = {
@@ -50,9 +44,28 @@ country_event = { #グルッペンの国葬をするかどうか
         days = 3
     }
     option = {
-        name = YTWA_prussia.2.a
+        name = YTWA_prussia.1.a
+    }
+}
+country_event = { #ヒトラーの国葬をするかどうか
+    id = YTWA_prussia.3
+    title = YTWA_prussia.3.t
+    desc = YTWA_prussia.3.d
+    picture = GFX_report_event_PRE_1952_election
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = PRE
+        date > 1952.3.1
+    }
+    mean_time_to_happen = {
+        days = 3
     }
     option = {
-        name = YTWA_prussia.2.b
+        name = YTWA_prussia.3.a
+    }
+    option = {
+        name = YTWA_prussia.3.b
     }
 }

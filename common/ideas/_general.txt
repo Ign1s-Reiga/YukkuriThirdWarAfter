@@ -1,0 +1,5 @@
+idea = {
+    country = {
+        picture = GFX_idea_POL_disjointed_industry
+    }
+}

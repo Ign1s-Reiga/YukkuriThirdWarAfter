@@ -1,0 +1,16 @@
+characters = {
+    PRE_erich_ollenhauer = {
+        name = PRE_erich_ollenhauer
+        country_leader = {
+            ideology = social_democratic_spd_subtype
+            expire="1963.12.14.1"
+        }
+    }
+    PRE_willy_brandt = {
+        name = PRE_willy_brandt
+        country_leader = {
+            ideology = social_democratic_spd_subtype
+            expire="1981"
+        }
+    }
+}

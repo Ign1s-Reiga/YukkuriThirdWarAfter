@@ -10,9 +10,22 @@
 ゲーム開始年：1952年  
 主要国：実況者様の操作国
 
+State対応状況：199まで  
+Country対応状況：  
+
 ## ストーリー
 
 割愛
+
+## 導入
+
+1. このmodをダウンロードする。
+2. Documents\Paradox Interactive\Hearts of Iron Ⅳ\modの下にdescriptor.modとmodフォルダを分けて置く。
+
+## 開発に参加する
+
+Forkして新しくブランチを作り、そこで開発をした後、Pull Requestを出してください。
+Collaboratorの承認が出たらmergeされます。
 
 ## 開発者
 
