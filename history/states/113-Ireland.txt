@@ -2,12 +2,11 @@ state = {
 	id = 113
 	name = "STATE_113" # Leinster
 	manpower = 1357600
+	state_category = city
 	resources = {
 		steel = 2 # was: 3
 	}
-	
-	state_category = city
-	
+
 	history = {
 		owner = ENG
 		victory_points = {
@@ -34,6 +33,5 @@ state = {
 	provinces = {
 		285 303 369 3342 3359 7377 11293 11303 
 	}
-
 	local_supplies = 0.0
 }

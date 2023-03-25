@@ -3,7 +3,6 @@ state = {
 	name = "STATE_70"
 	manpower = 1230500
 	state_category = city
-	
 	resources = {
 		tungsten = 1 # was: 2
 	}
@@ -26,7 +25,7 @@ state = {
 		add_core_of = SLV
 	}
 
-	provinces={
+	provinces = {
 		541 3484 3537 9539 9692 11522 11539 
 	}
 	local_supplies = 3.0

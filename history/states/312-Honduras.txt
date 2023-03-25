@@ -1,18 +1,16 @@
-state=
-{
-	id=312
-	name="STATE_312"
-	manpower=859761
-	resources={
-		chromium=1 # was: 1
-	}
-	
+state = {
+	id = 312
+	name = "STATE_312"
+	manpower = 859761
 	state_category = town
-	history=
-	{
+	resources = {
+		chromium = 1 # was: 1
+	}
+
+	history = {
 		owner = HON
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1
@@ -27,9 +25,9 @@ state=
 		victory_points = {
 			12865 3 
 		}
-
 	}
-	provinces={
+	provinces = {
 		2031 8017 12865
 	}
+	local_supplies = 0.0
 }

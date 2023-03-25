@@ -3,7 +3,6 @@ state = {
 	name = "STATE_27" # Bourgogne
 	manpower = 1370800
 	state_category = city
-	
 	resources = {
 		aluminium = 11 # was: 18
 	}

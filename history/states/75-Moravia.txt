@@ -2,12 +2,11 @@ state = {
 	id = 75
 	name = "STATE_75"
 	manpower = 2598400
+	state_category = city
 	resources = {
 		steel = 4 # was: 6
 		oil = 2 # was: 4
 	}
-
-	state_category = city
 
 	history = {
 		owner = HUN
@@ -21,7 +20,6 @@ state = {
 			infrastructure = 4
 			industrial_complex = 4
 			air_base = 5
-
 		}
 		add_core_of = HUN
 	}

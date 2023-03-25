@@ -1,16 +1,14 @@
-
-state={
-	id=117
-	name="STATE_117" # Campania
+state = {
+	id = 117
+	name = "STATE_117" # Campania
 	manpower = 5333611
-	
 	state_category = city
-	resources={
-		aluminium=10 # was: 16
+	resources = {
+		aluminium = 10 # was: 16
 		steel = 15 # was: 24
 	}
 
-	history={
+	history = {
 		owner = ITA
 		victory_points = {
 			819 20 
@@ -27,7 +25,7 @@ state={
 		add_core_of = ITA
 	}
 
-	provinces={
+	provinces = {
 		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803 
 	}
 	local_supplies = 13.0

@@ -1,16 +1,14 @@
-
-state={
-	id=119
-	name="STATE_119"
-	manpower=1198537
-	buildings_max_level_factor=1.000
-	state_category=city
-
-	resources={
-		aluminium=2
+state = {
+	id = 119
+	name = "STATE_119"
+	manpower = 1198537
+	buildings_max_level_factor = 1.000
+	state_category = city
+	resources = {
+		aluminium = 2
 	}
 
-	history={
+	history = {
 		owner = ENG
 		victory_points = {
 			3379 5 
@@ -32,7 +30,7 @@ state={
 		add_core_of = IRE
 	}
 
-	provinces={
+	provinces = {
 		276 385 3217 3242 3329 3379 11257 
 	}
 	local_supplies = 0.0

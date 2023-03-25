@@ -1,13 +1,12 @@
 state = {
 	id = 12
 	name = "STATE_12"
-	manpower = 1520500
+	manpower = 408500
 	state_category = rural
-
 	resources = {
 		steel = 1 # was: 2
 	}
-	
+
 	history = {
 		owner = LAT
 		victory_points = {
@@ -24,5 +23,5 @@ state = {
 	provinces = {
 		3388 9317 9501 10493 11302
 	}
-	local_supplies=0.0
+	local_supplies = 0.0
 }

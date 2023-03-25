@@ -1,17 +1,13 @@
-
-state={
-	id=324
-	name="STATE_324"
+state = {
+	id = 324
+	name = "STATE_324"
 	manpower = 450000
-	
-	
 	state_category = town
-	
-	resources={
-		tungsten=2 # was: 2
+	resources = {
+		tungsten = 2 # was: 2
 	}
 
-	history={
+	history = {
 		owner = BHU
 		buildings = {
 			infrastructure = 1
@@ -24,7 +20,8 @@ state={
 		add_core_of = BHU
 	}
 
-	provinces={
+	provinces = {
 		8010 12860 
 	}
+	local_supplies = 0.0
 }

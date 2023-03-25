@@ -3,11 +3,10 @@ state = {
 	name = "STATE_51"
 	manpower = 6144743
 	state_category = metropolis
-
 	resources = {
 		steel = 30 # was: 54
 	}
-	
+
 	history = {
 		owner = PRE
 		victory_points = {

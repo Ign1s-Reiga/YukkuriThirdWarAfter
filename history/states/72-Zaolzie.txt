@@ -2,9 +2,8 @@ state = {
 	id = 72
 	name = "STATE_72"
 	manpower = 152000
-	
 	state_category = rural
-	
+
 	history = {
 		owner = HUN
 		buildings = {

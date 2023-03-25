@@ -4,8 +4,9 @@ tags={
 	"Alternative History"
 	"Events"
 	"National Focuses"
+	"Decisions"
 }
-supported_version="1.11.12"
+supported_version="1.12.*"
 path="mod/YukkuriThirdWarAfter"
 picture="thumbnail.png"
 replace_path="common/bookmarks"

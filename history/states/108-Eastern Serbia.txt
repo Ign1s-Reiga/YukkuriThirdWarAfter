@@ -1,12 +1,14 @@
-
-state={
-	id=108
-	name="STATE_108"
-	resources={
-		steel=3
+state = {
+	id = 108
+	name = "STATE_108"
+	manpower = 707000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	resources = {
+		steel = 3
 	}
 
-	history={
+	history = {
 		victory_points = {
 			9602 3 
 		}
@@ -17,11 +19,8 @@ state={
 		add_core_of = YUG
 	}
 
-	provinces={
+	provinces = {
 		630 3922 3939 6953 6970 6998 9602 9756 9906 11887 
 	}
-	manpower=707000
-	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies = 5.0
 }

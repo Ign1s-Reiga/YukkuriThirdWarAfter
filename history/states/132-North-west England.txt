@@ -1,12 +1,11 @@
-state= {
-	id=132
-	name="STATE_132" # Lancashire
+state = {
+	id = 132
+	name = "STATE_132" # Lancashire
 	manpower = 5770454
 	state_category = metropolis
-	
-	resources={
-		steel=31 # was: 56
-		aluminium=2 # was: 4
+	resources = {
+		steel = 31 # was: 56
+		aluminium = 2 # was: 4
 	}
 
 	history= {
@@ -30,7 +29,7 @@ state= {
 		add_core_of = ENG
 	}
 	
-	provinces= {
+	provinces = {
 		3205 6318 6335 6384
  	}
 	local_supplies = 0.0
