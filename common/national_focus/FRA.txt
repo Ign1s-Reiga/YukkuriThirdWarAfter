@@ -1,0 +1,56 @@
+﻿focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	initial_show_position = {
+		x = 1
+	}
+
+	
+	default = no
+	focus = {
+		id = FRA_sixteenth_president_election
+		icon = goal_unknown
+		x = 10
+		y = 1
+		cost = 1
+		complete_effect = {
+			country_event = { id = 100000 }
+		}
+	}
+	focus = {
+		id = FRA_philippe_petain # 右派
+		icon = goal_unknown
+		relative_position_id = FRA_sixteenth_president_election
+		x = -5
+		y = 1
+		cost = 1
+		prerequisite = { focus = FRA_sixteenth_president_election }
+	}
+	focus = {
+		id = FRA_charles_de_gaulle # 中道右派
+		icon = goal_unknown
+		relative_position_id = FRA_sixteenth_president_election
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = { focus = FRA_sixteenth_president_election }
+	}
+	focus = {
+		id = FRA_antonin_artaud # 中道左派
+		icon = goal_unknown
+		relative_position_id = FRA_sixteenth_president_election
+		x = 5
+		y = 1
+		cost = 1
+		prerequisite = { focus = FRA_sixteenth_president_election }
+	}
+}

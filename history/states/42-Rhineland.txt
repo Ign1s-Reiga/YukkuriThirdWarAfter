@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = PRE
+		owner = GIA
 		victory_points = {
 			11435 1
 		}
@@ -20,6 +20,7 @@ state = {
 			infrastructure = 4
 			industrial_complex = 3
 		}
+		add_core_of = GIA
 		add_core_of = PRE
 	}
 

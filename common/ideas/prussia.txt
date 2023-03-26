@@ -14,7 +14,6 @@ ideas = {
 		PRE_two_defeats = {
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
-			picture
 		}
 		PRE_repression_nazism = {
 			removal_cost = -1

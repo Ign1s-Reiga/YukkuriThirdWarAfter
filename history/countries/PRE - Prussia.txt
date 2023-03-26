@@ -1,14 +1,6 @@
 ﻿capital = 64
 
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "PRE_1952_nsb"
-}
-else = {
-	set_oob = "PRE_1952"
-}
+oob = "PRE_1952"
 
 # Starting tech
 set_technology = {

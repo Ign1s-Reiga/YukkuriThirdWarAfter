@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = PRE
+		owner = GIA
 		victory_points = {
 			6469 10 
 		}
@@ -22,6 +22,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = PRE
+		add_core_of = GIA
 	}
 
 	provinces = {

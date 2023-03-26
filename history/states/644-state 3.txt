@@ -1,22 +1,24 @@
-state={
-	id=644
-	name="STATE_644"
-	manpower = 34182
-	buildings_max_level_factor = 1
+state = {
+	id = 644
+	name = "STATE_644" # Kolyma
+	manpower = 13090
+	buildings_max_level_factor = 1.000
 	state_category = wasteland
 
-	history={
+	history = {
 		owner = SOV
 		buildings = {
 			infrastructure = 1
+		}
+		victory_points = {
+			1819 1 
 		}
 		add_core_of = SOV
 		add_core_of = YAK
 	}
 
-	provinces={
-		1722 1745 1819 2853 2877 3184 4006 4229 4455 4878 6085 6211 12549 12592 12634 13060 13061
+	provinces = {
+		1819 4006 4229 4455 12592 13061
 	}
-
 	local_supplies = 0.0
 }
